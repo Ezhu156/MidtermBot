@@ -5,7 +5,8 @@ var T = new Twit(config);
 
 const yelp = require('yelp-fusion');
 var config2 = require('./config2.js');
-const client = yelp.client(config2);
+// console.log(config2.api_key);
+const client = yelp.client(config2.api_key);
 
 'use strict';
 
